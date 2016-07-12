@@ -3,6 +3,17 @@
 // Styles
 .songs-list {
     .song {
-
+        @extend .clearfix;
+        border-bottom: 1px solid $color-grey;
+        .cover {
+            width: 60px;
+            float: left;
+            margin-right: 10px;
+        }
+        .artist {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        .title {}
     }
 }
